@@ -1,0 +1,19 @@
+{
+  "require" : {
+    "silex/silex": "^2.0.4",
+    "monolog/monolog": "^1.22",
+    "twig/twig": "^2.0",
+    "symfony/twig-bridge": "^3",
+    "firebase/php-jwt": "^6.2",
+    "atoum/atoum": "^4.0"
+  },
+  "require-dev": {
+    "heroku/heroku-buildpack-php": "*",
+    "phpunit/phpunit": "^8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Web\\": "web"
+    }
+  }
+}
